@@ -1,0 +1,78 @@
+body {
+    text-align: center;
+    background-color: darkslategrey;
+}
+
+img {
+    border: 2px solid yellow;
+    border-radius: 10px;
+    height: 500px;
+    width: 800px;
+    object-fit: fill;
+    margin: 50px;
+}
+
+header {
+    border: 2px solid red;
+    border-radius: 10px;
+    height: 600px;
+    width: auto;
+    background-image: url(Logos/logo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+main {
+    border: 2px solid red;
+    border-radius: 10px;
+    height: auto;
+    width: auto;
+
+}
+
+footer {
+    border: 2px solid yellow;
+    border-radius: 10px;
+    height: auto;
+    width: auto;
+}
+
+h1,
+p,
+address {
+    color: white;
+    font-size: 25px;
+    text-align: justify;
+    padding: 50px;
+}
+
+.contact-us {
+    text-align: center;
+    font-size: 30px;
+
+
+}
+
+hr {
+    border: 2px solid red;
+}
+
+.image-container {
+    position: relative;
+    display: inline-block;
+}
+
+.image-text {
+    width: 700px;
+    text-shadow: 50px;
+    font-size: 50px;
+    position: relative;
+    bottom: 150px;
+    left: 90px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 5px 10px;
+}
+
+
