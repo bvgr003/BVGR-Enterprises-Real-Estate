@@ -68,10 +68,10 @@ hr {
 .image-text {
     width: 700px;
     font-size: 50px;
-    position: absolute; 
+    position: absolute;
     bottom: 100px;
     left: 90px;
     color: white;
     background-color: rgba(0, 0, 0, 0.5);
     padding: 5px 10px;
-    text-shadow: 2px 2px 4px #000000; 
+    text-shadow: 2px 2px 4px #000000;

@@ -6,12 +6,3 @@ function toggleMenu() {
         x.className = "navbar";
     }
 }
-
-
-
-
-
-
-
-
-
