@@ -28,7 +28,6 @@ main {
     border-radius: 10px;
     height: auto;
     width: auto;
-
 }
 
 footer {
@@ -54,8 +53,6 @@ address {
 .contact-us {
     text-align: center;
     font-size: 30px;
-
-
 }
 
 hr {
@@ -65,16 +62,16 @@ hr {
 .image-container {
     position: relative;
     display: inline-block;
+    text-decoration: none;
 }
 
 .image-text {
     width: 700px;
-    text-shadow: 50px;
     font-size: 50px;
-    position: relative;
-    bottom: 150px;
+    position: absolute; 
+    bottom: 100px;
     left: 90px;
     color: white;
     background-color: rgba(0, 0, 0, 0.5);
     padding: 5px 10px;
-}
+    text-shadow: 2px 2px 4px #000000; 
