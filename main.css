@@ -85,3 +85,17 @@ hr {
     background-color: rgba(0, 0, 0, 0.5);
     padding: 5px 10px;
     text-shadow: 2px 2px 4px #000000;
+}
+
+.image-container {
+    position: relative;
+    display: inline-block;
+}
+
+img:hover {
+    transform: scale(1.1);
+}
+
+img {
+    transition: transform 0.3s ease;
+}
