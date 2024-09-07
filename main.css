@@ -1,6 +1,7 @@
 body {
     text-align: center;
     background-color: darkslategrey;
+    padding: 2px;
 }
 
 img {
@@ -16,11 +17,12 @@ header {
     border: 2px solid red;
     border-radius: 10px;
     height: 600px;
-    width: auto;
+    max-width: 100%;
     background-image: url(Logos/bvgrre.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    overflow: hidden; 
 }
 
 main {
@@ -39,6 +41,7 @@ footer {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    overflow: hidden; 
 }
 
 h1,
