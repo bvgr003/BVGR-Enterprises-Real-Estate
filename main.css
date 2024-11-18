@@ -11,6 +11,11 @@ img {
     width: 800px;
     object-fit: fill;
     margin: 50px;
+    transition: transform 0.3s ease;
+}
+
+img:hover {
+    transform: scale(1.1);
 }
 
 header {
@@ -22,7 +27,7 @@ header {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    overflow: hidden; 
+    overflow: hidden;
 }
 
 main {
@@ -41,7 +46,7 @@ footer {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    overflow: hidden; 
+    overflow: hidden;
 }
 
 h1,
@@ -55,7 +60,6 @@ address {
 }
 
 @media (max-width: 768px) {
-
     h1,
     p,
     address {
@@ -90,15 +94,29 @@ hr {
     text-shadow: 2px 2px 4px #000000;
 }
 
-.image-container {
-    position: relative;
-    display: inline-block;
+.logo-link {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    display: block;
+    text-decoration: none; /* Removes any underline or link styling */
+    margin: 0; /* Removes extra margin */
+    padding: 0; /* Removes extra padding */
+    outline: none; /* Removes focus outline */
+    border: none; /* Ensures no border */
+    background: none; /* Ensures no background color */
+    box-shadow: none; /* Removes any shadow */
 }
 
-img:hover {
+.logo {
+    max-width: 200px;
+    max-height: 200px;
+    transition: transform 0.3s ease;
+}
+
+.logo:hover {
     transform: scale(1.1);
 }
 
-img {
-    transition: transform 0.3s ease;
-}
+   
+
