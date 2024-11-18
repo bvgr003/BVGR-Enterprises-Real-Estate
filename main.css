@@ -99,13 +99,6 @@ hr {
     top: 20px;
     right: 20px;
     display: block;
-    text-decoration: none; /* Removes any underline or link styling */
-    margin: 0; /* Removes extra margin */
-    padding: 0; /* Removes extra padding */
-    outline: none; /* Removes focus outline */
-    border: none; /* Ensures no border */
-    background: none; /* Ensures no background color */
-    box-shadow: none; /* Removes any shadow */
 }
 
 .logo {
