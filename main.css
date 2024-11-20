@@ -96,14 +96,14 @@ hr {
 
 .logo-link {
     position: absolute;
-    top: 20px;
-    right: 20px;
+    top: 50px;
+    right: 0px;
     display: block;
 }
 
 .logo {
-    max-width: 200px;
-    max-height: 200px;
+    max-width: 150px;
+    max-height: 150px;
     transition: transform 0.3s ease;
 }
 
