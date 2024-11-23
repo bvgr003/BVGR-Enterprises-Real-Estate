@@ -1,7 +1,7 @@
 body {
     text-align: center;
     background-color: darkslategrey;
-    padding: 2px;
+    padding: 5px;
 }
 
 img {
@@ -35,18 +35,14 @@ main {
     border-radius: 10px;
     height: auto;
     width: auto;
+    padding: 25px;
 }
 
 footer {
     border: 2px solid silver;
     border-radius: 10px;
-    height: 600px;
+    height: 400px;
     width: auto;
-    background-image: url(Logos/bvgrre.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    overflow: hidden;
 }
 
 h1,
@@ -122,5 +118,23 @@ hr {
     transform: scale(1.1);
 }
 
+.icons img {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    margin: 5px;
+    border-radius: 8px;
+    transition: transform 0.2s;
+}
+
+.icons img:hover {
+    transform: scale(1.1);
+}
+
+.icons a {
+    text-decoration: none;
+    border: none;
+    outline: none;
+}
    
 
