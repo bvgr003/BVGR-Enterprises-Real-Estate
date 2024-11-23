@@ -31,7 +31,7 @@ header {
 }
 
 main {
-    border: 2px solid silver;
+    border: 2px solid transparent;
     border-radius: 10px;
     height: auto;
     width: auto;
@@ -39,10 +39,11 @@ main {
 }
 
 footer {
-    border: 2px solid silver;
+    border: 2px solid transparent;
     border-radius: 10px;
     height: 400px;
     width: auto;
+    padding-bottom: 25px;
 }
 
 h1,
